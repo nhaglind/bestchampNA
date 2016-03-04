@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SuperCool
+//  Best Champ NA
 //
 //  Created by Nick Haglind on 2/18/16.
 //  Copyright © 2016 Nick Haglind. All rights reserved.

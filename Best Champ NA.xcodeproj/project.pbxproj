@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014520451C89DDFC003E7005 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 014520441C89DDFC003E7005 /* Default-568h@2x.png */; };
 		018512581C76441E00A37597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018512571C76441E00A37597 /* AppDelegate.swift */; };
 		0185125A1C76441E00A37597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018512591C76441E00A37597 /* ViewController.swift */; };
 		0185125D1C76441E00A37597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0185125B1C76441E00A37597 /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		018512541C76441E00A37597 /* SuperCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014520441C89DDFC003E7005 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		018512541C76441E00A37597 /* Best Champ NA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Champ NA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018512571C76441E00A37597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		018512591C76441E00A37597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0185125C1C76441E00A37597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +40,8 @@
 		0185124B1C76441E00A37597 = {
 			isa = PBXGroup;
 			children = (
-				018512561C76441E00A37597 /* SuperCool */,
+				014520441C89DDFC003E7005 /* Default-568h@2x.png */,
+				018512561C76441E00A37597 /* Best Champ NA */,
 				018512551C76441E00A37597 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +49,12 @@
 		018512551C76441E00A37597 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				018512541C76441E00A37597 /* SuperCool.app */,
+				018512541C76441E00A37597 /* Best Champ NA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		018512561C76441E00A37597 /* SuperCool */ = {
+		018512561C76441E00A37597 /* Best Champ NA */ = {
 			isa = PBXGroup;
 			children = (
 				018512571C76441E00A37597 /* AppDelegate.swift */,
@@ -61,15 +64,16 @@
 				018512601C76441E00A37597 /* LaunchScreen.storyboard */,
 				018512631C76441E00A37597 /* Info.plist */,
 			);
-			path = SuperCool;
+			name = "Best Champ NA";
+			path = bestchampNA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		018512531C76441E00A37597 /* SuperCool */ = {
+		018512531C76441E00A37597 /* Best Champ NA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 018512661C76441E00A37597 /* Build configuration list for PBXNativeTarget "SuperCool" */;
+			buildConfigurationList = 018512661C76441E00A37597 /* Build configuration list for PBXNativeTarget "Best Champ NA" */;
 			buildPhases = (
 				018512501C76441E00A37597 /* Sources */,
 				018512511C76441E00A37597 /* Frameworks */,
@@ -79,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = SuperCool;
+			name = "Best Champ NA";
 			productName = SuperCool;
-			productReference = 018512541C76441E00A37597 /* SuperCool.app */;
+			productReference = 018512541C76441E00A37597 /* Best Champ NA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0185124F1C76441E00A37597 /* Build configuration list for PBXProject "SuperCool" */;
+			buildConfigurationList = 0185124F1C76441E00A37597 /* Build configuration list for PBXProject "Best Champ NA" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				018512531C76441E00A37597 /* SuperCool */,
+				018512531C76441E00A37597 /* Best Champ NA */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				018512621C76441E00A37597 /* LaunchScreen.storyboard in Resources */,
+				014520451C89DDFC003E7005 /* Default-568h@2x.png in Resources */,
 				0185125F1C76441E00A37597 /* Assets.xcassets in Resources */,
 				0185125D1C76441E00A37597 /* Main.storyboard in Resources */,
 			);
@@ -247,10 +252,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SuperCool/Info.plist;
+				INFOPLIST_FILE = bestchampNA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickhaglind.SuperCool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickhaglind.Best Champ NA";
+				PRODUCT_NAME = "Best Champ NA";
 			};
 			name = Debug;
 		};
@@ -258,17 +263,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SuperCool/Info.plist;
+				INFOPLIST_FILE = bestchampNA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickhaglind.SuperCool;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickhaglind.Best Champ NA";
+				PRODUCT_NAME = "Best Champ NA";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0185124F1C76441E00A37597 /* Build configuration list for PBXProject "SuperCool" */ = {
+		0185124F1C76441E00A37597 /* Build configuration list for PBXProject "Best Champ NA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018512641C76441E00A37597 /* Debug */,
@@ -277,13 +282,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		018512661C76441E00A37597 /* Build configuration list for PBXNativeTarget "SuperCool" */ = {
+		018512661C76441E00A37597 /* Build configuration list for PBXNativeTarget "Best Champ NA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018512671C76441E00A37597 /* Debug */,
 				018512681C76441E00A37597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

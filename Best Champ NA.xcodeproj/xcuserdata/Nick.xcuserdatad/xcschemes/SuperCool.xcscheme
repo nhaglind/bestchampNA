@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "018512531C76441E00A37597"
-               BuildableName = "SuperCool.app"
-               BlueprintName = "SuperCool"
-               ReferencedContainer = "container:SuperCool.xcodeproj">
+               BuildableName = "Best Champ NA.app"
+               BlueprintName = "Best Champ NA"
+               ReferencedContainer = "container:Best Champ NA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "018512531C76441E00A37597"
-            BuildableName = "SuperCool.app"
-            BlueprintName = "SuperCool"
-            ReferencedContainer = "container:SuperCool.xcodeproj">
+            BuildableName = "Best Champ NA.app"
+            BlueprintName = "Best Champ NA"
+            ReferencedContainer = "container:Best Champ NA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "018512531C76441E00A37597"
-            BuildableName = "SuperCool.app"
-            BlueprintName = "SuperCool"
-            ReferencedContainer = "container:SuperCool.xcodeproj">
+            BuildableName = "Best Champ NA.app"
+            BlueprintName = "Best Champ NA"
+            ReferencedContainer = "container:Best Champ NA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "018512531C76441E00A37597"
-            BuildableName = "SuperCool.app"
-            BlueprintName = "SuperCool"
-            ReferencedContainer = "container:SuperCool.xcodeproj">
+            BuildableName = "Best Champ NA.app"
+            BlueprintName = "Best Champ NA"
+            ReferencedContainer = "container:Best Champ NA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
