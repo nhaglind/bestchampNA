@@ -14,33 +14,52 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SRBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vMx-Fn-IHf">
-                                <rect key="frame" x="-274" y="-197" width="898" height="1062"/>
+                                <rect key="frame" x="-230" y="-213" width="898" height="1062"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PH8-Vi-1AK">
-                                <rect key="frame" x="0.0" y="306" width="375" height="56"/>
-                                <state key="normal" image="bestchamp"/>
-                                <connections>
-                                    <action selector="displayChamp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1rd-FL-KZC"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MnR-Ll-fHO">
-                                <rect key="frame" x="0.0" y="54" width="375" height="244"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MnR-Ll-fHO">
+                                <rect key="frame" x="113" y="28" width="375" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="EM8-If-zQ3"/>
+                                    <constraint firstAttribute="height" constant="244" id="blL-Lq-Mh1"/>
+                                </constraints>
                             </imageView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf4-e9-PNp">
-                                <rect key="frame" x="0.0" y="306" width="375" height="56"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf4-e9-PNp">
+                                <rect key="frame" x="113" y="359" width="375" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="QDP-tn-boG"/>
+                                    <constraint firstAttribute="height" constant="56" id="cVw-1R-6wt"/>
+                                </constraints>
                                 <state key="normal" image="nopebutton"/>
                                 <connections>
                                     <action selector="resetObject:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yKe-P4-hH8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PH8-Vi-1AK">
+                                <rect key="frame" x="113" y="359" width="375" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="CEm-Kv-1VM"/>
+                                    <constraint firstAttribute="height" constant="56" id="HaZ-BL-OsW"/>
+                                </constraints>
+                                <state key="normal" image="bestchamp"/>
+                                <connections>
+                                    <action selector="displayChamp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1rd-FL-KZC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xf4-e9-PNp" firstAttribute="top" secondItem="MnR-Ll-fHO" secondAttribute="bottom" constant="87" id="Bfg-dn-5z2"/>
+                            <constraint firstItem="MnR-Ll-fHO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Cpm-7K-fkn"/>
+                            <constraint firstItem="MnR-Ll-fHO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GuF-OW-IsQ"/>
+                            <constraint firstItem="PH8-Vi-1AK" firstAttribute="top" secondItem="MnR-Ll-fHO" secondAttribute="bottom" constant="87" id="Xm8-J5-df1"/>
+                            <constraint firstItem="Xf4-e9-PNp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dEE-F0-8FG"/>
+                            <constraint firstItem="PH8-Vi-1AK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zk1-ik-oiY"/>
+                        </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="Reset" destination="Xf4-e9-PNp" id="ukG-hy-7BN"/>
                         <outlet property="randomChamp" destination="MnR-Ll-fHO" id="XVy-nI-Ixe"/>
